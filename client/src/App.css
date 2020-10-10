@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+.inputgroup{
+  width: 300px;
+}
+.ajoutProduit{
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.buttonDetails{
+width:"250px" ;
+margin-bottom: 20px;
+}
+.imageproduit {
+  width: 200px;
+  height: 200px;
+  margin-left: 40px;
+}
+.boutton{
+  text-decoration-color: aliceblue;
+}
+.navHeader{
+  padding-left: 20px;
+  background-color: rgb(25, 25, 92);
+}
+.mainContainer{
+ /*  background-color: rgb(197, 197, 241); */
+ background-image: url("https://www.secureaplus.com/wp-content/uploads/2016/03/SecureAPlus-HomePage-Background.png");
+
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.cartBackground{
+  background-color: #FFFFFF ;
+
+}
+.cardCust{
+width: 18rem;
+box-shadow:3px 3px 5px;
+border-radius:10px }
+
+.cardCust:hover {
+  transform: scale(1.1); 
+}
+.category{
+  
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.editbutton{
+  width: 60px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin: 2px;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

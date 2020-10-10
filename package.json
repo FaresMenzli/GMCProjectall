@@ -1,0 +1,28 @@
+{
+  "name": "Backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "front": "cd client && npm start",
+    "back": "nodemon server.js",
+    "dev": "concurrently \"npm run front \" \"npm run back\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.2.0",
+    "config": "^3.3.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "glyphicons": "^0.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.20",
+    "nodemon": "^2.0.4",
+    "react-bootstrap": "^1.0.1"
+  }
+}

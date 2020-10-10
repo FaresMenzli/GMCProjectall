@@ -1,0 +1,4 @@
+{
+    "MONGO_URI":"mongodb://localhost:27017/projectGMC",
+    "JWT_SECRET":"SECRET123456"
+}
